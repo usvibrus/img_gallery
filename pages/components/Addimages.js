@@ -34,7 +34,7 @@ function Addimages({ isadd, setadd, setimages, images }) {
       return;
     }
 
-    const response = await fetch("http://localhost:3003/add", {
+    const response = await fetch("https://server-5p6z-p44bmko4j-usvibrus.vercel.app/add", {
       method: "POST",
       body: JSON.stringify(imgdata),
       headers: {
