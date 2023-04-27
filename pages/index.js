@@ -19,7 +19,7 @@ const [pageSize, setPageSize] = useState(10);
 useEffect(() => {
   const fetchData = async () => {
     setloading(true);
-    const response = await fetch(`http://localhost:3003/getimages?page=${page}&pageSize=${pageSize}`);
+    const response = await fetch(`https://server-5p6z-p44bmko4j-usvibrus.vercel.app/getimages?page=${page}&pageSize=${pageSize}`);
     const jsonData = await response.json();
      setimages(jsonData);
 
