@@ -72,7 +72,7 @@ function handleNextPage() {
     <button className='bg-[#4acd8d] w-[90px] h-[60px] rounded-md' onClick={addimages}>Add image</button>
          
         
-    {Loading?<p>Loading the Images</p>:
+    {Loading?< className='text-white'p>Loading the Images</p>:
          <div className='p-6'>
         
  
